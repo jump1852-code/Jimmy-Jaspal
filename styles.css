@@ -21,20 +21,22 @@
     animation: float 3s ease-in-out infinite, moveRocket 10s linear infinite; /* Apply animations */
     z-index: 10; /* Bring the rocket in front of other elements */
 }
+body {
+    background-image: url('./asset/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
 
-
-        body {
-            background: linear-gradient(to right, #f7f8f8, #e1e1e1);
-            color: #333;
-        }
         .navbar {
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .navbar-brand {
             font-weight: bold;
         }
-        
+
         .card {
             transition: transform 0.3s;
         }
